@@ -10,18 +10,18 @@ function App() {
       <Hero />
       <Process />
       <Work />
-      {/* Simple contact band */}
+      {/* Contact band with a quieter, editorial tone */}
       <section id="contact" className="relative w-full bg-gradient-to-b from-slate-950 to-slate-950/95 py-20">
         <div className="mx-auto max-w-5xl px-6 text-center">
-          <h3 className="text-2xl font-semibold">Have an R&D brief?</h3>
+          <h3 className="text-2xl font-medium tracking-tight">Inquiries & Commissions</h3>
           <p className="mx-auto mt-2 max-w-2xl text-white/70">
-            We partner with venture‑backed startups and enterprise labs to explore, prototype, and launch new product lines.
+            We collaborate with galleries, brands, and civic partners. Briefs for limited editions or production programs welcome.
           </p>
           <a
-            href="mailto:hello@assemblylab.studio?subject=R%26D%20Project%20Inquiry"
-            className="mt-6 inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-900 shadow/30 shadow-white/10 transition hover:-translate-y-0.5 hover:shadow-lg"
+            href="mailto:studio@assemblylab.studio?subject=Commission%20Inquiry"
+            className="mt-6 inline-flex items-center justify-center rounded-full border border-white/20 bg-white/0 px-6 py-3 text-sm font-semibold text-white/90 backdrop-blur-sm transition hover:bg-white/5"
           >
-            Start a conversation
+            Contact the studio
           </a>
         </div>
       </section>
